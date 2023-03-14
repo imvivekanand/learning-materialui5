@@ -1,10 +1,12 @@
-import './App.css';
+import './App.css'
+import { MuiButtons } from './components/MuiButtons';
 import {MuiTypography} from './components/MuiTypography';
 
-const App = () => {
+function App(){
   return (
     <div>
       <MuiTypography/>
+      <MuiButtons/>
     </div>
   )
 }
